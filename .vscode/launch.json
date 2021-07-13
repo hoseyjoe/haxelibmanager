@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Html5",
+			"type": "chrome",
+			"request": "launch",
+			"file": "${workspaceRoot}/build/html5/index.html",
+			"webRoot": "${workspaceRoot}/build/html5/",
+			"preLaunchTask": "Html5 (debug)"
+		},
+		{
+			"name": "Raylib - Debug",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceFolder}/bin/raylib/HaxelibManager-debug.exe",
+			"preLaunchTask": "haxe: build.raylib.hxml"
+		}
+	]
+}

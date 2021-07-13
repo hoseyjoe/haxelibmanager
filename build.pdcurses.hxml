@@ -1,0 +1,7 @@
+-lib haxeui-core
+-lib haxeui-pdcurses
+-lib hscript
+-main HaxelibManager
+-cp src
+#-resource assets/img/haxeui.png
+--cpp bin/pdcurses/

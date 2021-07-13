@@ -1,0 +1,6 @@
+-lib haxeui-core
+-lib haxeui-heaps
+-lib hscript
+-main HaxelibManager
+-cp src
+#-resource assets/img/haxeui.png

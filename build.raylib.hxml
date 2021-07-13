@@ -1,0 +1,12 @@
+-lib hxcpp-debug-server
+-lib haxeui-core
+-lib haxeui-raylib
+-lib raylib-haxe
+-lib hscript
+-main HaxelibManager
+-cp src
+
+#-resource assets/img/haxeui.png
+
+--cpp bin/raylib/
+--debug

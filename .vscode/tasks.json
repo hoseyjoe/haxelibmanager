@@ -1,0 +1,59 @@
+{
+	"version": "2.0.0",
+	"command": "haxe",
+	"problemMatcher": "$haxe",
+	"tasks": [
+		{
+			"label": "Html5",
+			"suppressTaskName": true,
+			"args": [
+				"build.html5.hxml"
+			]
+		},
+		{
+			"label": "Html5 (debug)",
+			"suppressTaskName": true,
+			"args": [
+				"-debug",
+				"build.html5.hxml"
+			],
+			"isBuildCommand": true
+		},
+		{
+			"type": "hxml",
+			"file": "build.hl.hxml",
+			"problemMatcher": [
+				"$haxe-absolute",
+				"$haxe",
+				"$haxe-error",
+				"$haxe-trace"
+			],
+			"group": "build",
+			"label": "haxe: build.hl.hxml"
+		},
+		{
+			"type": "hxml",
+			"file": "build.raylib.hxml",
+			"problemMatcher": [
+				"$haxe-absolute",
+				"$haxe",
+				"$haxe-error",
+				"$haxe-trace"
+			],
+			"group": "build",
+			"label": "haxe: build.raylib.hxml"
+		},
+		{
+			"type": "hxml",
+			"file": "build.pdcurses.hxml",
+			"problemMatcher": [
+				"$haxe-absolute",
+				"$haxe",
+				"$haxe-error",
+				"$haxe-trace"
+			],
+			"group": "build",
+			"label": "haxe: build.pdcurses.hxml"
+		}
+	]
+}

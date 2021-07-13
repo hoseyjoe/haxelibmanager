@@ -1,0 +1,10 @@
+-lib haxeui-core
+-lib haxeui-heaps
+-lib hlsdl
+-lib hscript
+-main HaxelibManager
+-cp src
+#-resource assets/img/haxeui.png
+--hl bin/hl/HaxelibManager.hl 
+--next
+--cmd hl bin/hl/HaxelibManager.hl 

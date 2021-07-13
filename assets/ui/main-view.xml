@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox width="100%" height="100%">
+	<vbox width="100%" height="100%">
+		<style source="../css/main.haxeui.css" />
+
+		<label text="Haxe Manager" />
+		<hbox>
+			<dropdown id="libpaths" selectedIndex="0">
+				<data>
+				</data>
+			</dropdown>
+			<button id="checkForUpdates" text="Check for Updates"/>
+		</hbox>
+		<hbox width="100%" height="100%">
+			<listview id="libraries" width="100%" height="100%" selectedIndex="0">
+				<item-renderer layoutName="horizontal" width="100%">
+					<hbox width="100%">
+						<label id="text" width="50%" />
+						<label id="version" width="50%" style="horizontal-align: left;word-break: break-word;"/>
+						<!--<dropdown id="version" width="50%">
+							<data>
+							</data>
+						</dropdown>-->
+
+
+					</hbox>
+					<button styleName="libcheckbtn" text="Update" />
+				</item-renderer>
+				<data>
+
+				</data>
+			</listview>
+			<vbox width="0%">
+				<label id="lib_title" text="Lib" />
+				<label id="lib_current" text="current" />
+				<dropdown id="available" width="100%">
+					<data>
+					</data>
+				</dropdown>
+			</vbox>
+		</hbox>
+	</vbox>
+</vbox>
